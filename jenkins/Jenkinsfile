@@ -1,9 +1,9 @@
 pipeline {
     agent any 
-    environment (
-        TEST_FLAG = "true"
-        TEST_NAME = "Ethan"
-    )
+    environment {
+        TEST_FLAG = 'true'
+        TEST_NAME = 'Ethan'
+    }
     stages {
         stage('Stage 1') {
             steps {
