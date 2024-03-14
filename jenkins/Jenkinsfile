@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Stage 1') {
             steps {
-                sh 'printenv'
+                sh 'Jenkins Version 1.1'
             }
         }
 
